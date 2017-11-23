@@ -1,3 +1,12 @@
 html {
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+.btn {
+  background-color: inherit;
+  border: 3px solid rgba(255, 255, 255, 1);
 }
