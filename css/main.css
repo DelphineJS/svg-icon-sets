@@ -8,5 +8,26 @@ html {
 
 .btn {
   background-color: inherit;
-  border: 3px solid rgba(255, 255, 255, 1);
+  border: 3px solid rgba(255, 255, 255, .7);
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ff5e3a;
+  border-color: #fff;
+}
+
+li:first-child,
+li:nth-child(2) {
+  border-bottom: 3px solid rgba(255, 255, 255, .5);
+}
+
+@media only screen and (min-width: 60em) {
+
+  li:first-child,
+  li:nth-child(2) {
+    border-right: 3px solid rgba(255, 255, 255, .5);
+    border-bottom: none;
+  }
+
 }
